@@ -1,4 +1,10 @@
-"""Download Bybit data for the USDCUSDT pair."""
+"""Download Bybit data for the USDCUSDT pair.
+
+
+Run this script from the root directory of the project using:
+
+`poetry run python utils/BybitDL.py`
+"""
 
 import pandas as pd
 import datetime as dt

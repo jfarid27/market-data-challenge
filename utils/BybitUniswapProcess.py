@@ -1,4 +1,9 @@
-"""Process Bybit and Uniswap data for the USDCUSDT pair"""
+"""Process Bybit and Uniswap data for the USDCUSDT pair and generate a merged CSV file.
+
+Run this script from the root directory of the project using:
+
+`poetry run python utils/BybitUniswapProcess.py`
+"""
 
 import pandas as pd
 import numpy as np
